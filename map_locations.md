@@ -1,25 +1,33 @@
 # Map Locations
 
-# Board Game Reference Guide
+## Quick Find
 
-This document contains a comprehensive reference for various game components and rules.
 
-<div id="component-card-x" style="display: flex; align-items: flex-start; margin-bottom: 30px; padding: 15px; border: 1px solid #eee; border-radius: 5px;">
+## Index
+
+
+## Descriptions
+
+<div id="map-location-town" style="display: flex; align-items: flex-start; margin-bottom: 30px; padding: 15px; border: 1px solid #eee; border-radius: 5px;">
 <div style="flex: 0 0 50px; margin-right: 25px;">
-  <img src="./images/icons/hommarrow1.png" alt="Image of Card X" style="max-width: 100%; height: auto; display: block; border-radius: 3px;">
+  <img src="./images/map_objects/town_castle.png" alt="Castle Town" style="max-width: 50px; height: auto; display: block; border-radius: 3px;" title="Castle Town">
+  <img src="./images/map_objects/town_conflux.png" alt="Conflux Town" style="max-width: 50px; height: auto; display: block; border-radius: 3px;" title="Conflux Town">
+  <img src="./images/map_objects/town_cove.png" alt="Cove Town" style="max-width: 50px; height: auto; display: block; border-radius: 3px;" title="Cove Town">
+  <img src="./images/map_objects/town_dungeon.png" alt="Dungeon Town" style="max-width: 50px; height: auto; display: block; border-radius: 3px;" title="Dungeon Town">
+  <img src="./images/map_objects/town_fortress.webp" alt="Fortress Town" style="max-width: 50px; height: auto; display: block; border-radius: 3px;" title="Fortress Town">
+  <img src="./images/map_objects/town_inferno.webp" alt="Inferno Town" style="max-width: 50px; height: auto; display: block; border-radius: 3px;" title="Inferno Town">
+  <img src="./images/map_objects/town_necropolis.png" alt="Necropolis Town" style="max-width: 50px; height: auto; display: block; border-radius: 3px;" title="Necropolis Town">
+  <img src="./images/map_objects/town_rampart.png" alt="Rampart Town" style="max-width: 50px; height: auto; display: block; border-radius: 3px;" title="Rampart Town">
+  <img src="./images/map_objects/town_stronghold.png" alt="Stronghold Town" style="max-width: 50px; height: auto; display: block; border-radius: 3px;" title="Stronghold Town">
+  <img src="./images/map_objects/town_tower.png" alt="Tower Town" style="max-width: 50px; height: auto; display: block; border-radius: 3px;" title="Tower Town">
 </div>
 <div style="flex: 1;">
-  ## Card X: The Explorer's Map
-  The Explorer's Map is a crucial **Utility Card** that allows players to perform a special *Discovery* action.
   
-  ### Activation
-  When played from your hand, you may immediately move your **Pawn** up to 3 spaces in any cardinal direction, ignoring terrain penalties for the first space.
+  ### Town
+  Category: [**Flaggable**](LINK:FLAGGABLE)
 
-  ### Special Ability
-  *   If you land on an **Unexplored Hex**, draw 2 `Discovery Tokens`.
-  *   If you land on an **Occupied Hex**, you may challenge another player to a `Trade-Off` negotiation.
-  
-  _This card cannot be used during the 'End Phase' of a turn._
+  This is a player's starting field. If a player [captures](LINK:CAPTURE) a Town, they gain a bonus depending on the scenario.
+
 </div>
 </div>
 
