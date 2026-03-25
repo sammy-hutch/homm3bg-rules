@@ -1,4 +1,5 @@
 # Map Locations
+next up: Temple
 
 ## Quick Find
 <a href="#learning-stone" title="Learning Stone"><img src="./images/map_objects/learning_stone.webp" alt="Learning Stone" style="height: 5.0em; vertical-align: middle;"></a>
