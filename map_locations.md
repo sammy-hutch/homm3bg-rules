@@ -1,12 +1,17 @@
 # Map Locations
-next up: Temple
+next up: Trading Post
 
 ## Quick Find
+<a href="#dragon-utopia" title="Dragon Utopia"><img src="./images/map_objects/dragon_utopia.webp" alt="Dragon Utopia" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#fountain-of-youth" title="Fountain of Youth"><img src="./images/map_objects/fountain_of_youth.webp" alt="Fountain of Youth" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#learning-stone" title="Learning Stone"><img src="./images/map_objects/learning_stone.webp" alt="Learning Stone" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#magic_spring" title="Magic Spring"><img src="./images/map_objects/magic_spring.webp" alt="Magic Spring" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#mystical-garden" title="Mystical Garden"><img src="./images/map_objects/mystical_garden.webp" alt="Mystical Garden" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#redwood-observatory" title="Redwood Observatory"><img src="./images/map_objects/redwood_observatory.webp" alt="Redwood Observatory" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#shrine-of-magic-gesture" title="Shrine of Magic Gesture"><img src="./images/map_objects/shrine_of_magic_gesture.webp" alt="Shrine of Magic Gesture" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#shrine-of-magic-incantation" title="Shrine of Magic Incantation"><img src="./images/map_objects/shrine_of_magic_incantation.webp" alt="Shrine of Magic Incantation" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#stables" title="Stables"><img src="./images/map_objects/stables.webp" alt="Stables" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#temple" title="Temple"><img src="./images/map_objects/temple.webp" alt="Temple" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#tree-of-knowledge" title="Tree of Knowledge"><img src="./images/map_objects/tree_of_knowledge.webp" alt="Tree of Knowledge" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#town" title="Castle Town"><img src="./images/map_objects/town_castle.png" alt="Castle Town" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#town" title="Conflux Town"><img src="./images/map_objects/town_conflux.png" alt="Conflux Town" style="height: 5.0em; vertical-align: middle;"></a>
@@ -18,24 +23,59 @@ next up: Temple
 <a href="#town" title="Rampart Town"><img src="./images/map_objects/town_rampart.png" alt="Rampart Town" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#town" title="Stronghold Town"><img src="./images/map_objects/town_stronghold.png" alt="Stronghold Town" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#town" title="Tower Town"><img src="./images/map_objects/town_tower.png" alt="Tower Town" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#warriors-tomb" title="Warrior's Tomb"><img src="./images/map_objects/warriors_tomb.webp" alt="Warrior's Tomb" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#water-wheel" title="Water Wheel"><img src="./images/map_objects/water_wheel.webp" alt="Water Wheel" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#windmill" title="Windmill"><img src="./images/map_objects/windmill.webp" alt="Windmill" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#witch-hut" title="Witch Hut"><img src="./images/map_objects/witch_hut.webp" alt="Witch Hut" style="height: 5.0em; vertical-align: middle;"></a>
 
 ## Index
+- [Dragon Utopia](#dragon-utopia)
+- [Fountain of Youth](#fountain-of-youth)
 - [Learning Stone](#learning-stone)
+- [Magic Spring](#magic-spring)
 - [Mystical Garden](#mystical-garden)
 - [Redwood Observatory](#redwood-observatory)
 - [Shrine of Magic Gesture](#shrine-of-magic-gesture)
 - [Shrine of Magic Incantation](#shrine-of-magic-incantation)
+- [Stables](#stables)
+- [Temple](#temple)
 - [Tree of Knowledge](#tree-of-knowledge)
 - [Town](#town)
+- [Warrior's Tomb](#warriors-tomb)
 - [Water Wheel](#water-wheel)
 - [Windmill](#windmill)
 - [Witch Hut](#witch-hut)
 
 
 ## Descriptions
+
+<div id="map-location-dragon-utopia" style="display: flex; align-items: flex-start; margin-bottom: 30px; padding: 15px; border: 1px solid #eee; border-radius: 5px;">
+<div style="flex: 0 0 100px; margin-right: 25px;">
+  <img src="./images/map_objects/dragon_utopia.webp" alt="Dragon Utopia" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Dragon Utopia">
+</div>
+<div style="flex: 1;">
+
+  ### Dragon Utopia
+  Category: [**Flaggable**](LINK:FLAGGABLE)
+
+  The Effect depends on the scenario.
+  
+</div>
+</div>
+
+<div id="map-location-fountain-of-youth" style="display: flex; align-items: flex-start; margin-bottom: 30px; padding: 15px; border: 1px solid #eee; border-radius: 5px;">
+<div style="flex: 0 0 100px; margin-right: 25px;">
+  <img src="./images/map_objects/fountain_of_youth.webp" alt="Fountain of Youth" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Fountain of Youth">
+</div>
+<div style="flex: 1;">
+
+  ### Fountain of Youth
+  Category: [**Visitable**](LINK:VISITABLE)
+
+  The visiting [Hero](LINK:HERO) gains 1 additional <a href="/iconography.md#movement_point" alt="Movement Point" title="Movement Point"><img src="./images/icons/movement_point.png" style="height: 1.0em; vertical-align: middle;"></a> for this turn. Gain 1 <a href="/iconography.md#positive-morale" alt="Positive Morale" title="Positive Morale"><img src="./images/icons/positive_morale.png" style="height: 1.0em; vertical-align: middle;"></a>.
+  
+</div>
+</div>
 
 <div id="map-location-learning-stone" style="display: flex; align-items: flex-start; margin-bottom: 30px; padding: 15px; border: 1px solid #eee; border-radius: 5px;">
 <div style="flex: 0 0 100px; margin-right: 25px;">
@@ -47,6 +87,20 @@ next up: Temple
   Category: [**Visitable**](LINK:VISITABLE)
 
   Gain 1 <a href="/iconography.md#experience" alt="Experience" title="Experience"><img src="./images/icons/experience.png" style="height: 1.0em; vertical-align: middle;"></a>.
+  
+</div>
+</div>
+
+<div id="map-location-magic-spring" style="display: flex; align-items: flex-start; margin-bottom: 30px; padding: 15px; border: 1px solid #eee; border-radius: 5px;">
+<div style="flex: 0 0 100px; margin-right: 25px;">
+  <img src="./images/map_objects/magic_spring.webp" alt="Magic Spring" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Magic Spring">
+</div>
+<div style="flex: 1;">
+
+  ### Magic Spring
+  Category: [**Visitable**](LINK:VISITABLE)
+
+  You may look at the top 3 cards of your discard pile and take 1 of them back to your hand. Return the remaining cards to the top of your discard pile in any order.
   
 </div>
 </div>
@@ -105,6 +159,33 @@ next up: Temple
   You may pay 3 <a href="/iconography.md#gold" alt="Gold" title="Gold"><img src="./images/icons/gold.png" style="height: 1.0em; vertical-align: middle;"></a> to [Search (2)](LINK:SEARCH) the [Spell](LINK:SPELLS) deck.
   
 </div>
+
+</div><div id="map-location-stables" style="display: flex; align-items: flex-start; margin-bottom: 30px; padding: 15px; border: 1px solid #eee; border-radius: 5px;">
+<div style="flex: 0 0 100px; margin-right: 25px;">
+  <img src="./images/map_objects/stables.webp" alt="Stables" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Stables">
+</div>
+<div style="flex: 1;">
+
+  ### Stables
+  Category: [**Revisitable**](LINK:REVISITABLE)
+
+  The visiting [Hero](LINK:HERO) gains 1 additional <a href="/iconography.md#movement_point" alt="Movement Point" title="Movement Point"><img src="./images/icons/movement_point.png" style="height: 1.0em; vertical-align: middle;"></a> for this turn.
+  
+</div>
+</div>
+
+<div id="map-location-temple" style="display: flex; align-items: flex-start; margin-bottom: 30px; padding: 15px; border: 1px solid #eee; border-radius: 5px;">
+<div style="flex: 0 0 100px; margin-right: 25px;">
+  <img src="./images/map_objects/temple.webp" alt="Temple" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Temple">
+</div>
+<div style="flex: 1;">
+
+  ### Temple
+  Category: [**Visitable**](LINK:VISITABLE)
+
+  Gain 1 <a href="/iconography.md#positive-morale" alt="Positive Morale" title="Positive Morale"><img src="./images/icons/positive_morale.png" style="height: 1.0em; vertical-align: middle;"></a>.
+  
+</div>
 </div>
 
 <div id="map-location-tree-of-knowledge" style="display: flex; align-items: flex-start; margin-bottom: 30px; padding: 15px; border: 1px solid #eee; border-radius: 5px;">
@@ -141,6 +222,20 @@ next up: Temple
 
   This is a player's starting field. If a player [captures](LINK:CAPTURE) a Town, they gain a bonus depending on the scenario.
 
+</div>
+</div>
+
+<div id="map-location-warriors-tomb" style="display: flex; align-items: flex-start; margin-bottom: 30px; padding: 15px; border: 1px solid #eee; border-radius: 5px;">
+<div style="flex: 0 0 100px; margin-right: 25px;">
+  <img src="./images/map_objects/warriors_tomb.webp" alt="Warrior's Tomb" style="max-width: 100px; height: auto; display: block; border-radius: 3px;">
+</div>
+<div style="flex: 1;">
+  
+  ### Warrior's Tomb
+  Category: [**Visitable**](LINK:VISITABLE)
+
+  You may [Search (2)](LINK:SEARCH) the [Artifact](LINK:ARTIFACT) deck, twice.If you do, gain 2 <a href="/iconography.md#negative-morale" alt="Negative Morale" title="Negative Morale"><img src="./images/icons/negative_morale.png" style="height: 1.0em; vertical-align: middle;"></a>.
+  
 </div>
 </div>
 
