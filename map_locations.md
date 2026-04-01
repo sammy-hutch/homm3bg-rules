@@ -1,5 +1,4 @@
 # Map Locations
-next up: Settlement
 
 not included: 
 - treasure symbol, artifact symbol, resource symbol (add to iconography instead)
@@ -11,10 +10,25 @@ not included:
 <a href="#grail" title="Grail"><img src="./images/map_objects/grail.gif" alt="Grail" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#learning-stone" title="Learning Stone"><img src="./images/map_objects/learning_stone.webp" alt="Learning Stone" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#magic_spring" title="Magic Spring"><img src="./images/map_objects/magic_spring.webp" alt="Magic Spring" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#mine" title="Alchemists Lab"><img src="./images/map_objects/alchemists_lab.webp" alt="Alchemists Lab" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#mine" title="Crystal Mine"><img src="./images/map_objects/crystal_mine.webp" alt="Crystal Mine" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#mine" title="Gem Pond"><img src="./images/map_objects/gem_pond.webp" alt="Gem Pond" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#mine" title="Gold Mine"><img src="./images/map_objects/gold_mine.webp" alt="Gold Mine" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#mine" title="Ore Mine"><img src="./images/map_objects/ore_mine.webp" alt="Ore Mine" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#mystical-garden" title="Mystical Garden"><img src="./images/map_objects/mystical_garden.webp" alt="Mystical Garden" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#obelisk" title="Obelisk"><img src="./images/map_objects/obelisk.png" alt="Obelisk" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#redwood-observatory" title="Redwood Observatory"><img src="./images/map_objects/redwood_observatory.webp" alt="Redwood Observatory" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#sanctuary" title="Sanctuary"><img src="./images/map_objects/sanctuary.webp" alt="Sanctuary" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#settlement" title="Castle Settlement"><img src="./images/map_objects/settlement_castle.png" alt="Castle Settlement" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#settlement" title="Conflux Settlement"><img src="./images/map_objects/settlement_conflux.png" alt="Conflux Settlement" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#settlement" title="Cove Settlement"><img src="./images/map_objects/settlement_cove.png" alt="Cove Settlement" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#settlement" title="Dungeon Settlement"><img src="./images/map_objects/settlement_dungeon.png" alt="Dungeon Settlement" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#settlement" title="Fortress Settlement"><img src="./images/map_objects/settlement_fortress.png" alt="Fortress Settlement" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#settlement" title="Inferno Settlement"><img src="./images/map_objects/settlement_inferno.png" alt="Inferno Settlement" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#settlement" title="Necropolis Settlement"><img src="./images/map_objects/settlement_necropolis.png" alt="Necropolis Settlement" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#settlement" title="Rampart Settlement"><img src="./images/map_objects/settlement_rampart.png" alt="Rampart Settlement" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#settlement" title="Stronghold Settlement"><img src="./images/map_objects/settlement_stronghold.png" alt="Stronghold Settlement" style="height: 5.0em; vertical-align: middle;"></a>
+<a href="#settlement" title="Tower Settlement"><img src="./images/map_objects/settlement_tower.png" alt="Tower Settlement" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#shrine-of-magic-gesture" title="Shrine of Magic Gesture"><img src="./images/map_objects/shrine_of_magic_gesture.webp" alt="Shrine of Magic Gesture" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#shrine-of-magic-incantation" title="Shrine of Magic Incantation"><img src="./images/map_objects/shrine_of_magic_incantation.webp" alt="Shrine of Magic Incantation" style="height: 5.0em; vertical-align: middle;"></a>
 <a href="#stables" title="Stables"><img src="./images/map_objects/stables.webp" alt="Stables" style="height: 5.0em; vertical-align: middle;"></a>
@@ -42,10 +56,12 @@ not included:
 - [Grail](#grail)
 - [Learning Stone](#learning-stone)
 - [Magic Spring](#magic-spring)
+- [Mine](#mine)
 - [Mystical Garden](#mystical-garden)
 - [Obelisk](#obelisk)
 - [Redwood Observatory](#redwood-observatory)
 - [Sanctuary](#sanctuary)
+- [Settlement](#settlement)
 - [Shrine of Magic Gesture](#shrine-of-magic-gesture)
 - [Shrine of Magic Incantation](#shrine-of-magic-incantation)
 - [Stables](#stables)
@@ -129,6 +145,37 @@ not included:
   You may look at the top 3 cards of your discard pile and take 1 of them back to your hand. Return the remaining cards to the top of your discard pile in any order.
   
 </div>
+
+</div><div id="map-location-mine" style="display: flex; align-items: flex-start; margin-bottom: 30px; padding: 15px; border: 1px solid #eee; border-radius: 5px;">
+<div style="flex: 0 0 100px; margin-right: 25px;">
+  <img src="./images/map_objects/alchemists_lab.webp" alt="Alchemists Lab" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Alchemists Lab">
+  <img src="./images/map_objects/crystal_mine.webp" alt="Crystal Mine" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Crystal Mine">
+  <img src="./images/map_objects/gem_pond.webp" alt="Gem Pond" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Gem Pond">
+  <img src="./images/map_objects/gold_mine.webp" alt="Gold Mine" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Gold Mine">
+  <img src="./images/map_objects/ore_mine.webp" alt="Ore Mine" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Ore Mine">
+</div>
+<div style="flex: 1;">
+
+  ### Mine
+  Category: [**Flaggable**](LINK:FLAGGABLE)
+
+  When you [Flag](LINK:FLAG) a Mine, increase your [Income](LINK:INCOME) corresponding to the resource provided by that mine type:
+  - Gold Mine (<img src="./images/map_objects/gold_mine.webp" alt="Gold Mine" style="height: 1.0em;" title="Gold Mine">): Increase your <a href="/iconography.md#gold" alt="Gold" title="Gold"><img src="./images/icons/gold.png" style="height: 1.0em; vertical-align: middle;"></a> [Income](LINK:INCOME) by 5 (1 Step)
+  - Ore Mine (<img src="./images/map_objects/ore_mine.webp" alt="Ore Mine" style="height: 1.0em;" title="Ore Mine">): Increase your <a href="/iconography.md#building_material" alt="Building Material" title="Building Material"><img src="./images/icons/building_material.png" style="height: 1.0em; vertical-align: middle;"></a> [Income](LINK:INCOME) by 2 (1 Step)
+  - Alchemists Lab (<img src="./images/map_objects/alchemists_lab.webp" alt="Alchemists Lab" style="height: 1.0em;" title="Alchemists Lab">), Crystal Mine (<img src="./images/map_objects/crystal_mine.webp" alt="Crystal Mine" style="height: 1.0em;" title="Crystal Mine">), Gem Pond (<img src="./images/map_objects/gem_pond.webp" alt="Gem Pond" style="height: 1.0em;" title="Gem Pond">): Increase your <a href="/iconography.md#valuables" alt="Valuables" title="Valuables"><img src="./images/icons/valuables.png" style="height: 1.0em; vertical-align: middle;"></a> [Income](LINK:INCOME) by 1 (1 Step)
+  
+  If that Mine was not previously flagged, you also gain an immediate bonus according to the resource type of the mine:
+  - <a href="/iconography.md#gold" alt="Gold" title="Gold"><img src="./images/icons/gold.png" style="height: 1.0em; vertical-align: middle;"></a> Mines: 5 <a href="/iconography.md#gold" alt="Gold" title="Gold"><img src="./images/icons/gold.png" style="height: 1.0em; vertical-align: middle;"></a>
+  - <a href="/iconography.md#building_material" alt="Building Material" title="Building Material"><img src="./images/icons/building_material.png" style="height: 1.0em; vertical-align: middle;"></a> Mines: 2 <a href="/iconography.md#building_material" alt="Building Material" title="Building Material"><img src="./images/icons/building_material.png" style="height: 1.0em; vertical-align: middle;"></a>
+  - <a href="/iconography.md#valuables" alt="Valuables" title="Valuables"><img src="./images/icons/valuables.png" style="height: 1.0em; vertical-align: middle;"></a> Mines: 1 <a href="/iconography.md#valuables" alt="Valuables" title="Valuables"><img src="./images/icons/valuables.png" style="height: 1.0em; vertical-align: middle;"></a>
+
+  If a Hero enters a field with a Mine owned by another player, the Hero Flags the Mine immediately.
+
+  If you lose control of a Mine, decrease your Income for the corresponding resource by one step.
+
+  Mines that have not yet been claimed are always defended by [Neutral Units](LINK:NEUTRAL_UNITS).
+
+</div>
 </div>
 
 <div id="map-location-mystical-garden" style="display: flex; align-items: flex-start; margin-bottom: 30px; padding: 15px; border: 1px solid #eee; border-radius: 5px;">
@@ -189,7 +236,16 @@ not included:
 
 <div id="map-location-settlement" style="display: flex; align-items: flex-start; margin-bottom: 30px; padding: 15px; border: 1px solid #eee; border-radius: 5px;">
 <div style="flex: 0 0 100px; margin-right: 25px;">
-  <img src="./images/map_objects/settlement_castle.webp" alt="Castle Settlement" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Castle Settlement">
+  <img src="./images/map_objects/settlement_castle.png" alt="Castle Settlement" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Castle Settlement">
+  <img src="./images/map_objects/settlement_conflux.png" alt="Conflux Settlement" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Conflux Settlement">
+  <img src="./images/map_objects/settlement_cove.png" alt="Cove Settlement" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Cove Settlement">
+  <img src="./images/map_objects/settlement_dungeon.png" alt="Dungeon Settlement" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Dungeon Settlement">
+  <img src="./images/map_objects/settlement_fortress.png" alt="Fortress Settlement" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Fortress Settlement">
+  <img src="./images/map_objects/settlement_inferno.png" alt="Inferno Settlement" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Inferno Settlement">
+  <img src="./images/map_objects/settlement_necropolis.png" alt="Necropolis Settlement" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Necropolis Settlement">
+  <img src="./images/map_objects/settlement_rampart.png" alt="Rampart Settlement" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Rampart Settlement">
+  <img src="./images/map_objects/settlement_stronghold.png" alt="Stronghold Settlement" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Stronghold Settlement">
+  <img src="./images/map_objects/settlement_tower.png" alt="Tower Settlement" style="max-width: 100px; height: auto; display: block; border-radius: 3px;" title="Tower Settlement">
 </div>
 <div style="flex: 1;">
 
