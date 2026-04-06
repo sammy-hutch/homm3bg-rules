@@ -1,7 +1,10 @@
+next up: movement actions
+
 # Table of Contents
 - [Game Overview](#game-modes)
 - [Setup](#setup)
 - [Game Overview](#game-overview)
+- [Morale](#morale)
 - [Iconography](#iconography)
 - [Map Locations](#map-locations)
 - [Components](#components)
@@ -101,7 +104,84 @@ A cooperative mode for 2-3 players where everyone shares the same goal.
 # Game Overview
 
 ## Round Order
+The game is played over a series of rounds, which are tracked using the Round Tracker. The black cube on the lowset number on the tracker indicates which round it is. Once all players have taken their turn during the current round, the current round ends and the next one begins. At this point, the black cube on the lowest space on the round tracker is advanced to the next space.
+
+Depending on the scenario, there may be special timed events that are triggered on particular rounds, and these will be indicated by a black cube waiting on that round on the round tracker. If such a cube is placed, when it is reached remove it (moving the cube from the lowest-numbered round into its place) and resolve the effect of the special condition determined by the scenario.
+
+### Start of Round
+At the start of each round, additional effects occur depending on the round type:
+
+#### Resource Rounds
+Resource Rounds are the odd-numbered rounds on the top row of the Round Tracker. At the start of Resource Rounds (except for the first round, Round 1), all players gain income according to their income tracker. (TODO: ADD LINKS)
+
+#### Astrologers' Rounds
+Astrologers' Rounds are the even-numbered rounds on the bottom row of the Round Tracker. At the start of Astrologers' Rounds, draw one Astrologers Proclaim card from the Astrologers Proclaim card deck. Its effect is resolved by all players. The duration and effect of these cards varies and affects how the game is played
+
+### End of Round
+- Flip all Town Action tokens on Town Boards to readied position (non crossed-out side face-up).
+- If you have a negative morale token *on your main hero board*, discard all cards in your hand, and return that negative morale token to the supply
+
+## Player Turns
+
+### Start of Turn
+At the start of your turn:
+- you become the active player.
+- you may discard any number of Might & Magic cards from your hand, then draw cards to your hand from your Might & Magic deck up to your hand limit.
+- If you have more cards in hand than your hand limit, discard cards until the number of cards in your hand matches your hand limit.
+
+### During Turn
+During your turn, you can perform the following actions:
+
+#### Town Actions
+There are 3 Town Actions, represented by the Build, Population and Spell Book tokens on your Town Board. You can perform each of the Town Actions once per round. You can perform them at any point except during combat. After performing a Town Action, flip the respective token on the Town Board.
+- Build Action: Expand your Town. (TODO: LINK)
+- Population Token: Recruit and Reinforce units, or Recruit a Secondary Hero. (TODO: LINK)
+- Spell Book Token: Purchase spells (TODO: LINK)
+
+#### Morale Actions
+If you have a Positive Morale token, you can spend it at any time, including during combat, to gain one of the following 3 effects:
+- Draw a card from your Might & Magic Deck.
+- Discard any number of cards, then draw that many cards from your Might and Magic Deck.
+- Re-roll one die.
+
+#### Movement Actions
 ...
+
+### During other Players' Turns
+Except during combat, you may perform Town Actions if you have not already done so this round.
+
+
+[ 📜 Back to Top](#table-of-contents)
+
+---
+---
+
+
+# Morale
+
+During the game, you can gain or lose Morale (typically from your heroes visiting map locations). 
+
+When you gain Positive morale:
+- if you already have a Positive Morale token, do nothing. 
+- otherwise, if you have a Negative Morale token, discard that Negative Morale token. 
+- otherwise, place a Positive Morale token near your Might & Magic deck. 
+
+When you gain Negative Morale:
+- if you have a Positive Morale token, discard that Positive Morale token. 
+- otherwise, if you have a Negative Morale token, place an additional Negative Morale token on your Main Hero Board.
+- otherwise, gain a Negative Morale token.
+
+You can only have one Morale Token (positive or negative) at a time.
+
+You can spend Positive Morale Tokens to perform a Morale Action.
+
+You cannot spend Negative Morale Tokens.
+
+Negative Morale Tokens on your Main Hero Board cannot be removed by any means other than the End of Round effect.
+
+**. *Note: the Necropolis faction ignores positive and negative morale effects* .** (TODO: MOVE THIS TO OTHER SECTION)
+
+
 
 
 [ 📜 Back to Top](#table-of-contents)
