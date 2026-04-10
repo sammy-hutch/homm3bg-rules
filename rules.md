@@ -1,9 +1,10 @@
-next up: movement actions
+next up: deckbuilding
 
 # Table of Contents
 - [Game Overview](#game-modes)
 - [Setup](#setup)
 - [Game Overview](#game-overview)
+- [Heroes](#heroes)
 - [Morale](#morale)
 - [Iconography](#iconography)
 - [Map Locations](#map-locations)
@@ -119,6 +120,8 @@ Astrologers' Rounds are the even-numbered rounds on the bottom row of the Round 
 
 ### End of Round
 - Flip all Town Action tokens on Town Boards to readied position (non crossed-out side face-up).
+- Flip all movement tokens from brown side to green side
+- Return a number of black cubes to your Hero Card equal to your Hero's available Expert Effects.
 - If you have a negative morale token *on your main hero board*, discard all cards in your hand, and return that negative morale token to the supply
 
 ## Player Turns
@@ -145,11 +148,76 @@ If you have a Positive Morale token, you can spend it at any time, including dur
 - Re-roll one die.
 
 #### Movement Actions
-...
+You take a movement action by 'spending' a Movement Token associated with one of your Heroes (flipping it from green side to brown side). This allows that Hero to do one of the following:
+- Move 1 field in any direction (i.e. move from one hexagonal space on the board to an adjacent hexagonal space).
+- Discover a map tile if the Hero is on a field adjacent to an undiscovered map tile.
+- Place a new map tile from your personal pool of map tiles, according to Map Tile placement rules (LINK: MAP TILE PLACEMENT RULES).
+- Continue Combat against Neutral Units for 1 additional round.
 
 ### During other Players' Turns
 Except during combat, you may perform Town Actions if you have not already done so this round.
 
+
+[ 📜 Back to Top](#table-of-contents)
+
+---
+---
+
+
+# Heroes
+
+There are two types of Heroes: Might Heroes and Magic Heroes.
+A "Player's Hero" is any Hero figure on the game board controlled by a player. Each player can have up to 2 Heroes in play at any one time, a Main Hero and a Secondary Hero.
+
+## Main Hero
+The Main Hero is represented by its model and the Hero card. Each player's Main Hero has 3 Movement Points (tracked by the 3 Movement Tokens that you take during Setup) that can be spent on Movement Actions. Only the Main Hero can use the player's Might and Magic Deck. Only the Main Hero can gain experience and level up. Each player's Main Hero starts the game at level 1 and can advance to level 7.
+
+Your Main Hero will gain experience by defeating Neutral Units and Enemy Heroes whose difficulty/level is equal to or higher than you Main Heroe's current level. Certain locations on the map can also reward you with Experience, as can a Treasure Die roll. (TODO: MOVE TO DEDICATED SECTION FOR EXPERIENCE)
+
+## Secondary Heroes
+If you control a Town or Settlement, you may Recruit your faction's Secondary Hero. To do so, you need to spend 10 gold while expanding your army using the Population token (TODO: MOVE TO RECRUITMENT RULES). The Secondary Hero is represented by the remaining Hero model associated with your faction.
+
+When you Recruit a Secondary Hero, place it on a Town or Settlement that you control. Secondary Heroes do not have a Hero Card and cannot gain experience (for themselves or for your Main Hero). The Secondary Hero has 2 Movement Points, which are tracked with Movement Tokens and can be spent on Movement Actions, the same as the Main Hero. If the Secondary Hero would gain any cards, they go to your hand and can be used by your Main Hero. The Secondary Hero cannot use the cards in the Might & Magic Deck (deck, hand or discard).
+
+Whenever your Secondary Hero engages in combat, they use your units (but cannot use the Might and Magic Deck cards). If a Secondary Hero encounters an Enemy Hero, the player can choose to either fight or remove the Secondary Hero from the game, ending the combat (LINK: END OF COMBAT). If a Secondary Hero is defeated in combat, they are removed from the game. When a player defeats an opponent's Secondary Hero in combat, they gain a faction cube from the opponent (LINK: VICTORY CONDITIONS).
+
+Secondary Heroes that are removed from the game can be Recruited as normal on the next turn.
+
+## Hero Card
+
+<a title="Hero Card"><img src="./images/diagrams/hero_card.png" alt="Hero Card" style="vertical-align: middle;"></a>
+
+1. Name
+2. Class
+3. Type: helmet (TODO: HELMET_ICON) for Might Heroes, hat (TODO: HAT_ICON) for Magic Heroes
+4. Faction Color
+5. Attack Value: The number of Attack cards added to the Might and Magic Deck during Setup.
+6. Defense Value: The number of Defense cards added to the Might and Magic Deck during Setup.
+7. Power Value: The number of Power cards added to the Might and Magic Deck during Setup.
+8. Knowledge Value: The number of Knowledge cards added to the Might and Magic Deck during Setup.
+9. Starting Ability: Each hero specialises in a particular ability. One ability card matching this ability is added to the Might and Magic deck during Setup.
+10. Speciality: Each Hero has a unique set of 3 speciality cards. The Level 1 Speciality card is added to the Might and Magic deck during Setup.
+11. Level Tracker: Shows the current Level of the Main Hero.
+
+## Level Effects
+
+As your Main Hero gains Experience, their Stats improve. The Level Tracker shows your hand limit and the number of Expert Effects you can use per round. 
+At each new Level, you will either increase you hand limit or the number of expert effects.
+At each new Level you will also either gain one of your Hero's Speciality cards or Search the Ability deck for new Ability Cards.
+
+- Level 1: +1 Hand Limit (now **4**). Add the Level 1 Speciality card associated with your Hero to your Might and Magic Deck (this is done during setup).
+- Level 2: +1 Expert Effect per Round (now **1**). Search(2) the Ability Deck.
+- Level 3: +1 Hand Limit (now **5**). Search(2) the Ability Deck.
+- Level 4: +1 Expert Effect per Round (now **2**). Add the Level 4 Speciality card to your Might and Magic Deck.
+- Level 5: +1 Hand Limit (now **6**). Search(2) the Ability Deck.
+- Level 6: +1 Expert Effect per Round (now **3**). Add the Level 6 Speciality card to your Might and Magic Deck.
+- Level 7: +1 Hand Limit (now **7**). Search(2) the Ability Deck.
+
+All these above effects are displayed via iconography on the card:
+- Gold Levels (I, IV, VI) add Speciality card to deck, whilst Silver levels Search(2) the Ability Deck.
+- The number of Crowns shows how many Expert Effects you can use in a round, whilst the number of Cards shows your hand limit.
+
+NOTE: use black cubes to track your Expert Effects. place one black cube per available expert effect on your hero card, and move it off the card when you use the effect.
 
 [ 📜 Back to Top](#table-of-contents)
 
