@@ -5,6 +5,7 @@ next up: deckbuilding
 - [Setup](#setup)
 - [Game Overview](#game-overview)
 - [Heroes](#heroes)
+- [Might and Magic Deck](#might-and-magic-deck)
 - [Morale](#morale)
 - [Iconography](#iconography)
 - [Map Locations](#map-locations)
@@ -218,6 +219,79 @@ All these above effects are displayed via iconography on the card:
 - The number of Crowns shows how many Expert Effects you can use in a round, whilst the number of Cards shows your hand limit.
 
 NOTE: use black cubes to track your Expert Effects. place one black cube per available expert effect on your hero card, and move it off the card when you use the effect.
+
+[ 📜 Back to Top](#table-of-contents)
+
+---
+---
+
+
+# Might and Magic Deck
+
+During Setup you build your initial Might and Magic Deck, which consists of Statistic Cards, Ability Cards, Spell Cards, and the chosen Hero's Level 1 Specialty Card, amounting to a total of 9 cards.
+
+All the Might and Magic Cards have the same back, so they are indistinguishable when shuffled into your Might and Magic Deck. The Ability, Spell and Artifact cards each have their own decks that you can Gain cards from, and the discard pile for each of these decks helps identify which deck is which.
+
+If your Might and Magic Deck is empty and you need to draw a card, shuffle your discard pile to form a new deck.
+
+## General Card Rules
+
+### Gaining Cards
+
+Whenever you Gain a card, unless stated otherwise, you always add it directly to your hand.
+
+### Searching
+
+Whenever you Search(X) a Deck, you may either:
+  - a: look at the top X cards from that Deck, Gain 1 and discard the others
+  - b: Gain the top card from that Deck's discard pile
+
+### Removing Cards
+
+Whenever you Remove a card, remove it completely from the game and return it to the box.
+
+### Card Effect Types
+- Instant effects can be played at any time and resolve immediately.
+- Activation effects can only be played during a Unit's activation
+- Map effects can only be played on your turn outside of combat
+- Ongoing effects can be played at any time and last until they are used up or until the player who played them starts their next turn (whichever happens first).
+
+### Using Cards
+
+After a Card is used, it is discarded into you Might and Magic Deck discard pile. This happens immediately after the card is played for Instant, Activation and Map effects, and after a card is used up for Ongoing effects.
+
+## Ability and Statistic Cards
+
+Every Ability and Statistic card has a Basic Effect and a stronger Expert Effect, shown underneath the Expert Effect (Crown) symbol. When you play a card, if you have available Expert Effect uses, you may spend one black cube from your available Expert Effects reserve on your Hero Card to play that card at Expert Effect (using the text underneath the crown INSTEAD OF the text above the crown). If you do not choose to or are unable to spend a Expert Effect use, instead play the card using only the Basic Effect.
+
+Ability Cards are gained when you Level up your hero to Levels 2, 3, 5 and 7, and can also be gained from some Map Locations.
+
+Statistic Cards are rarely gained beyond the inital cards you have during Setup.
+
+### Faction-specific Cards
+Cards with the skull symbol in the bottom-right corner are specific to the Necropolis Faction, and can only be used by Heroes of that Faction.
+
+## Artifact Cards
+There are 3 types of Artifact Card: Minor (Blue Border), Major (Red Border) and Relic (Purple Border). Artifact cards have a variety of effects, and are gained when you Search the Artifact Deck (from Map locations or Treasure Dice).
+
+## Spell Cards
+Spell Cards grant a variety of effects, although most are used for Combat. 
+
+Spell cards are gained from Map locations or, more reliably, from the Mage Guild Town Building.
+
+There are no initial costs to casting a spell, but their effects become stronger if you put more Power into it. Effects that grant power are played simultaneously with the spell, and no excess power can be transferred to later spells. The Power of a spell can be increased by:
+- Discarding any other Spell card from hand when you play the current spell. The alternative effect power value on the bottom of the discarded spell card is contributed to the current spell's power value.
+- Using relevant Artifact, Ability or Power cards.
+
+Each player can only cast one spell per combat round, but may empower that spell with any number of cards.
+
+### Building a Mage Guild
+(TODO: MOVE TO TOWN SECTION; AND LINK HERE)
+
+Upon building the Mage Guild, Search(2) the Spell deck, twice. If you start a scenario with the Mage Guild already built, perform this action before drawing your initial hand of Might and Magic Cards, i.e. gain the 2 spells but add them to your Might and Magic Deck and shuffle the deck.
+
+To gain more Spell Cards, you may use the Mage Guild by paying the cost shown on the town board to search(2) the Spell deck. You can only use the Mage Guild once per round. When you do so, flip the Spell Book token to the exhausted side. You cannot use a Mage Guild to purchase spells on the round it was built
+
 
 [ 📜 Back to Top](#table-of-contents)
 
