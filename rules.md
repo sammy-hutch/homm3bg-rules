@@ -1,4 +1,4 @@
-next up: deckbuilding
+next up: units
 
 # Table of Contents
 - [Game Overview](#game-modes)
@@ -6,6 +6,9 @@ next up: deckbuilding
 - [Game Overview](#game-overview)
 - [Heroes](#heroes)
 - [Might and Magic Deck](#might-and-magic-deck)
+- [Resources](#resources)
+- [Town](#town)
+- [Map Tiles](#map-tiles)
 - [Morale](#morale)
 - [Iconography](#iconography)
 - [Map Locations](#map-locations)
@@ -291,6 +294,97 @@ Each player can only cast one spell per combat round, but may empower that spell
 Upon building the Mage Guild, Search(2) the Spell deck, twice. If you start a scenario with the Mage Guild already built, perform this action before drawing your initial hand of Might and Magic Cards, i.e. gain the 2 spells but add them to your Might and Magic Deck and shuffle the deck.
 
 To gain more Spell Cards, you may use the Mage Guild by paying the cost shown on the town board to search(2) the Spell deck. You can only use the Mage Guild once per round. When you do so, flip the Spell Book token to the exhausted side. You cannot use a Mage Guild to purchase spells on the round it was built
+
+
+[ 📜 Back to Top](#table-of-contents)
+
+---
+---
+
+
+# Resources
+
+Resources are fundamental to the success of playing Heroes of Might and Magic III: The Board Game. You will need them to expand your Town, Recruit units, and purchase spells.
+
+There are three types of resources in the game: Gold, Building Materials and Valuables. You can gain resources from Settlements and Mines that you own, and also from using artifacts and rolling Resource Dice.
+
+A Resource Die may grant any of the following resources:
+- 2x Building Materials
+- 4x Building Materials
+- 1x Valuables
+- 2x Valuables
+- 3x Gold
+- 6x Gold
+
+Sometimes - when you visit a Trading Post or as a result of some events - you will be able to exchange resources or Remove a card.
+
+
+[ 📜 Back to Top](#table-of-contents)
+
+---
+---
+
+
+# Town
+
+Each faction has its own Town with unique buildings that can provide a variety of effects when built. Each player has access to the Town associated with their faction via the Town Board that that player controls.
+
+Some common buildings across towns and their effects:
+- City Hall: During Resource Rounds, gain additional income or a faction-specific ability
+- Citadel: Allows you to Reinforce your Unit cards from a Few to a Pack. Also, adds walls, a gate and an arrow tower (i.e. defenses) to your Town.
+- Unit Dwellings: Allows you to Recruit Units. Different Dwellings allow you to recruit different Tiers of Units, and must be built in the order Bronze, Silver, Gold (i.e. you cannot build Gold Tier Dwelling until you have built Silver, and cannot build Silver until you have built Bronze).
+- Mage Guild: Allows you to Purchase Spells
+
+You can only build one building per round. You do this by paying the cost of the building (shown in the space the building will occupy on the town board) and flipping the Build token. Then, you place the corresponding Town Building tile onto the Town Board.
+
+While exploring the map, you will be able to capture neutral Settlements and besiege enemy Towns. You can do that by moving your Hero onto the field that those structures are located on. If you besiege a Town or Settlement belonging to another player, the defending player may pay 8 Gold to defend with their army if they are not already present on the location. They do not defend with their Main Hero, which means they cannot use any Might and Magic Cards from their hand during that Combat.
+
+If you capture an enemy Town, place your facton cube on that Town and take a faction cube from the previous owner. Depending on the scenario, it may count towards meeting Victory Conditions. You may not use any buildings or abilities from a captured Town, including the ability to Recruit Units from other factions. Thus, if an enemy captures your town, you may still use the abilities and buildings of your Town, including the ability to Recruit Units.
+
+
+[ 📜 Back to Top](#table-of-contents)
+
+---
+---
+
+
+# Map Tiles
+
+## Types of Map Tiles
+> *Discovering new areas and exciting adventures is an essential part of Heroes of Might and Magic III: The Board Game experience.* 
+
+While exploring the map, your Heroes will travel across various locations and types of terrain represented by Map Tiles. the Map Tiles are divided into 4 Types that can be identified by their level (difficulty) shown on the back:
+- I: Starting Map Tiles
+- II-III: Far Map Tiles
+- IV-V: Near Map Tiles
+- VI-VII: Center Map Tiles
+
+## Map Tile Anatomy
+Each Map Tile is divided into 7 Fields. Each Field contains up to one Map Location, but on each Tile there will be an Empty Field. If a field contains a Roman Numeral (located at the top of the field) this signifies that the field contains Neutral Units which you can encounter there, and the value of the Roman Numeral indicates the strength of those Neutral Units. Fields with a solid yellow border are Blocked fields and cannot be entered.
+
+Fields marked with a TREASURE SYMBOL allow you to roll a Treasure die and can provide you with the following bonuses:
+- Roll 1 Resource die
+- Roll 2 Resource dice and choose one result
+- Gain 1 Experience (1/2 an Experience Level)
+- Search(2) the Artifact Deck
+
+## Location Categories
+Each location belongs to one of three categories thay will help you easily identify what you need to do once you visit a field. To visit a location, you first move to its Field. If entering a field triggers combat, you mus first resolve combat before resolving the effects of that field. Empty fields do not have any effects.
+- Visitable: One-time effect. Once you have visited it, place a black cube on it to mark that fact. If there is already a black cube on it, treat this field as an empty field.
+- Flaggable: These fields can be directly owned or controlled. When you capture it, Flag it with one of your faction cubes. Other players may also capture the field and replace your faction cube with theirs to gain the field's effects. An Allied Hero that enters a field with your faction cube treats it as an empty field.
+- Revisitable: You can visit this field multiple times, gaining its effcts (if any) each time. Do not place any cubes to mark the fact that you have visited this field.
+
+## Scenario Map Tiles
+In every scenario, you will use a combination of Center (VI-VII) and/or Near (IV-V) Map Tiles. They contain the strongest enemies but also the best loot. At the start of the game, shuffle them and place them face-down according to the setup instructions of the selected scenario. They will remain a mystery, until a Hero discovers them.
+
+In some scenarios, you will receive an individual pool of Far (II-III) Map tiles. During the setup, you will shuffle them face down and deal them evenly between all players. Once a player decides to explore new lands with their Hero, that player adds the top Map Tile from their pool to the Map. Place it face-up, as it represents the newly discovered lands. A player who runs out of Far (II-III) Map Tiles may no longer add tiles to the Map.
+
+## Map Tile Placement
+You can add Map tiles to the Map if the new Map Tile is adjacent to:
+- your Hero
+- at least 2 other tiles
+
+New tiles must be positioned such that there is a valid path that joins them with other tiles, i.e. for every tile that touches the new tile, it must be possible to navigate directly from one to the other. This means that while you may place blocked fields next to each other, there must be a valid path to the added tile from all other tiles. You may rotate the Map Tiles when placing them.
 
 
 [ 📜 Back to Top](#table-of-contents)
