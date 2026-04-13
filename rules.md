@@ -1,4 +1,4 @@
-next up: units
+next up: combat
 
 # Table of Contents
 - [Game Overview](#game-modes)
@@ -10,6 +10,7 @@ next up: units
 - [Town](#town)
 - [Map Tiles](#map-tiles)
 - [Morale](#morale)
+- [Units](#units)
 - [Iconography](#iconography)
 - [Map Locations](#map-locations)
 - [Components](#components)
@@ -418,6 +419,58 @@ Negative Morale Tokens on your Main Hero Board cannot be removed by any means ot
 **. *Note: the Necropolis faction ignores positive and negative morale effects* .** (TODO: MOVE THIS TO OTHER SECTION)
 
 
+
+
+[ 📜 Back to Top](#table-of-contents)
+
+---
+---
+
+
+# Units
+
+## Faction Units
+
+Every faction has access to 7 different units, each with unique stats and abilities. Although you usually start the game with your Unit cards flipped to the "Few" side, you can Reinforce them by paying the Reinforcement cost given on each card. When you do so, flip the card to the "Pack" side. All players get their own deck of recruited units. You may never have more than 5 units at a time on the combat board. If a unit is defeated in Combat, remove it from the deck. After Combat, return the surviving units to their deck.You can add a removed unit to your deck by Recruting it again. Recruiting and Reinforcing units requires using the population token to expand your army. When you do so, you can instantly Recruit and Reinforce any number of times, provided you have enough resources. Remember to flip the population token when you are done expanding your army!
+
+At any point, if you lose all of your units - either in Combat or by retreating - replace your owned units with the starting units for that scenario.
+
+## Unit Card
+
+<a title="Unit Card"><img src="./images/diagrams/unit_card.png" alt="Unit Card" style="vertical-align: middle;"></a>
+
+1. Name
+2. Tier: Can be Bronze, Silver, Gold or Azure. Faction units spread over 3 tiers, with each tier being available for recruitment only if you have the required dwelling tier building in your Town:
+  - Tier 1 Dwelling: Bronze units.
+  - Tier 2 Dwelling: Silver units.
+  - Tier 3 Dwelling: Gold units, and allows you to use Diplomacy ability to Recruit Azure units.
+3. Type: can be one of 3 categories:
+  - Ground: Can move up to 3 spaces and attack enemy units adjacent to it
+  - Flying: Can move up to 3 spaces, attack adjacent enemy units, and ignore combat obstacles
+  - Ranged: Can attack, or move up to 1 space (and NOT attack after moving). As long as there are no enemy units adjacent to it, a ranged unit may attack any unit on the combat board. However, it suffers a combat penalty* when attacking an adjacent unit, or when attacking a unit on the opposite backline when it itself is also on a backline. It also gains an additional combat penalty (-1 attack) if the target unit is behind enemy walls or gates.
+4. Attack: Determines the amount of damage done by the unit. It may be modified by a variety of effects.
+5. Defense: Determines the amount by which the unit reduces the attack damage it receives. It does not apply to damage from spells or other effects.
+6. HP: Determines the maximum amount of damage a unit can take before it perishes. When a Reinforced unit takes damage equal to or greater than its maximum HP, flip it over to the "Few" side. Deal the leftover damage (if any) and deduct it from its new max HP. When a unit on the "Few" side takes damage equal to or greater than its max HP, remove it from the combat board. After combat, remove all damage from all surviving units. However, if a unit card was flipped from the "Pack" side to the "Few" side, it stays that way until you Reinforce it again.
+7. Initiative: Determines when a unit can be activated in combat. the higher the initiative value, the faster the unit will act.
+8. Recruitment cost: the cost to recruit the unit
+9. Reinforcement cost: the cost to reinforce the unit
+10. Pack symbol
+11. Special ability: Most faction units hae special abilities that feature additional rules, and are divided into the following types:
+  - Activation: Resolve the effect the moment the unit activates.
+  - Attack Action: Resolve the effect when this unit attacks. If the unit performs more than one attack, resolve the effect only on the first attack.
+  - Other Action: You may resolve this effect on the unit's turn instead of taking the unit's regular actions (move, attack, etc).
+  - Passive: Resolve the effect every time the conditions are met
+  - Retaliate: Resolve the effect every time this unit performs a Retaliation attack.
+
+*When attacking with a combat penalty, roll 2 attack dice and resolve the lower result
+
+## Neutral Units
+
+The Neutral Units are divided into 4 decks based on their tier: Bronze, Silver, Gold and Azure. When you trigger a combat, draw units from the Neutral Unit decks that correspond to the difficulty indicated on the map field where the Combat takes place (LINK: DIFFICULTY).
+
+Diplomacy allows you to Recruit a Neutral Unit. To be able to do so, you must have both the Dwelling that is required to recruit units of that tier and pay the recruitment cost given on the recruited Neutral Unit's card.
+
+NOTE: This is the only way you can Recruit Azure tier units.
 
 
 [ 📜 Back to Top](#table-of-contents)
