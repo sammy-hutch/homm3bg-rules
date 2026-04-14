@@ -1,4 +1,4 @@
-next up: combat
+next up: combat 
 
 # Table of Contents
 - [Game Overview](#game-modes)
