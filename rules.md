@@ -1,4 +1,4 @@
-next up: combat
+next up: continuing combat
 
 # Table of Contents
 - [Game Overview](#game-modes)
@@ -11,6 +11,7 @@ next up: combat
 - [Map Tiles](#map-tiles)
 - [Morale](#morale)
 - [Units](#units)
+- [Combat](#combat)
 - [Iconography](#iconography)
 - [Map Locations](#map-locations)
 - [Components](#components)
@@ -419,8 +420,6 @@ Negative Morale Tokens on your Main Hero Board cannot be removed by any means ot
 **. *Note: the Necropolis faction ignores positive and negative morale effects* .** (TODO: MOVE THIS TO OTHER SECTION)
 
 
-
-
 [ 📜 Back to Top](#table-of-contents)
 
 ---
@@ -471,6 +470,48 @@ The Neutral Units are divided into 4 decks based on their tier: Bronze, Silver, 
 Diplomacy allows you to Recruit a Neutral Unit. To be able to do so, you must have both the Dwelling that is required to recruit units of that tier and pay the recruitment cost given on the recruited Neutral Unit's card.
 
 NOTE: This is the only way you can Recruit Azure tier units.
+
+
+[ 📜 Back to Top](#table-of-contents)
+
+---
+---
+
+
+# Combat
+
+Combat takes place whenever a Hero moves onto or is placed on an unvisited field with Neutral Units on it, or when a Hero interacts with another player, either through sieging their Towns or directly engaging their Heroes.
+
+## Combat Setup
+
+Combat takes place on the 4 x 5 Combat board. The two opposing forces in the combat start on opposite sides of the board (on the narrow ends). The 4 spaces at each end of the board are the Backline, and the 4 spaces in front of them are the Frontline.
+
+Depending on the units you fight against, the length of the combat encounters may vary:
+- Neutral Units, from tiers Bronze to Gold: Combat lasts 1 round only.
+- Any Azure Tier Neutral Units and Enemy Heroes: Combat lasts until either side wins or surrenders.
+
+If you fail to beat Bronze, Silver or Gold Tier Neutral Units within 1 Combat round, you may pay 1 Movement Point to extend the combat by one round (you may extend the combat multiple times, so long as you have movement points to spend). If you are unwilling or unable to pay the extra Movement Points to extend the Combat, your Hero retreats, the Combat ends, and you have to move you Hero back to the field they were on before engaging in Combat. In such a case, the field where the Combat with the Neutral Units took place does not count as visited. Discard the Neutral Units that were involved in the Combat and draw new ones when a Hero enters the field.
+
+### Neutral Unit Setup
+
+When Combat with Neutral Units is triggered, you must:
+- Place freely up to 5 of your Units on the Backline and Frontline of your chosen side of the Combat Board.
+- Check the Difficulty table and draw the corresponding number of Neutral Unit cards from the corresponding decks, and place them on the opposing side:
+  - In solo campaign and co-op modes:
+    - a: Place any Ranged Neutral Units along the backline of the Combat board. Starting from the leftmost side of the controlling player, place the units in order of their decreasing initiative.
+    - b: place any Flying or Ground Neutral Units along the frontline. Starting from the leftmost side of the controlling player, place the units in the order of their decreasing initiative. Each unit must occupy one space. If there is no more space on the frontline, place the remaining unit(s) on the backline, again starting from the controlling player's leftmost side.
+    - c: If two units have the same initiative, the higher tier units are placed first. If both units have the same initiative and tier, the player who controls the Neutral Units may decide which unit is placed first.
+  - In Clash or Alliance modes:
+    - a: the player who has just ended their turn takes control of the Neutral Units.
+    - b: Although that player also decides on  the unit placement, they must place the ranged units on the backline if possible.
+
+Whenever a Neutral Unit activates, the player controlling it must always attack the Hero's units. If that is not possible, they must spend all of the Neutral Unit's movement to move towards the Hero's units.
+
+### Hero vs Hero Setup
+
+The Hero vs Hero Combat setup is very similar to a Neutral Units Combat setup. The only difference is that it requires 2 players, both of whom command their units.
+
+First, the attacking player places up to 5 of their units on the Combat board, just as described in Neutral Unit Setup. Second, the defender places up to 5 of their units, just like the attacker does, but on the opposing side of the Combat board.
 
 
 [ 📜 Back to Top](#table-of-contents)
