@@ -14,6 +14,7 @@ next up: continuing combat
 - [Combat](#combat)
 - [Iconography](#iconography)
 - [Map Locations](#map-locations)
+- [Scenarios](#scenarios)
 - [Components](#components)
 
 
@@ -998,6 +999,59 @@ not included:
 ---
 
 
+# Scenarios
+
+## List of Scenarios
+
+### Campaign
+
+#### Castle Campaign
+- Players: 1
+- Rulebook: Mission Book
+- Scenarios: 3
+  1. Homecoming
+  2. Guardian Angels
+  3. Steadwick's Liberation
+
+
+### Clash Mode
+
+#### All For One
+- Players: 3
+- Length: 11 Rounds
+- Rulebook: Mission Book
+
+#### Brave New World
+- Players: 2-3
+- Length: 8-9 Rounds
+- Rulebook: Mission Book
+
+#### Monk's Retreat
+- Players: 2
+- Length: 7 Rounds
+- Rulebook: Mission Book
+
+
+### Cooperative Mode
+
+#### Gelea's Champions
+- Players: 2-3
+- Length: 11 Rounds
+- Rulebook: Mission Book
+
+#### Unholy Quest
+- Players: 2-3
+- Length: 8-14 Rounds
+- Rulebook: Mission Book
+
+
+[ 📜 Back to Top](#table-of-contents)
+
+
+---
+---
+
+
 # Components
 
 ## Booklets
@@ -1074,3 +1128,10 @@ not included:
 
 ## Models
 - 6 x Hero Model
+
+
+[ 📜 Back to Top](#table-of-contents)
+
+
+---
+---
