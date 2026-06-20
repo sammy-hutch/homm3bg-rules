@@ -12,6 +12,7 @@ next up: continuing combat
 - [Morale](#morale)
 - [Units](#units)
 - [Combat](#combat)
+- [Game Settings](#game-settings)
 - [Iconography](#iconography)
 - [Map Locations](#map-locations)
 - [Scenarios](#scenarios)
@@ -514,6 +515,187 @@ The Hero vs Hero Combat setup is very similar to a Neutral Units Combat setup. T
 
 First, the attacking player places up to 5 of their units on the Combat board, just as described in Neutral Unit Setup. Second, the defender places up to 5 of their units, just like the attacker does, but on the opposing side of the Combat board.
 
+## Combat Terminology
+
+### Activation
+
+When a unit activates, it is its time to act - move and/or attack. To remember which units have already activated during each combat round, put one of your faction cubes on the unit and then remove it at the end of the combat round.
+
+### Adjacent Unit
+
+A unit is directly adjacent to another if it is one space away in a cardinal direction (non-diagonal).
+
+### Combat Round
+
+A Combat round refers to a full cycle of all units of each player being activated. Players activate their units in the decreasing order of unit initiative. If a player has no more units to activate, then their opponent keeps activating the rest of their units until all units have been activated. Then, the next combat round starts.
+
+### Combat Obstacles
+
+Every card placed on the Combat board counts as a combat obstacle. These objects, which block movement for non-flying units, include other Unit cards, walls and gates. Gates and walls may be destroyed when attacked by an adjacent Ground or Flying unit. Flip destroyed walls or gates cards, these cards no longer count as obstacles. The defender's units can move through the gate as if it were an empty field.
+
+### Attack Die
+
+The red die. Results range from -1 to +1. Roll the die whenever a unit attacks and add the result to the unit's attack value.
+
+### Retaliation Attack
+
+If a unit survives an attack by an adjacent unit, it performs a retaliation attack on that unit. Each unit can perform 1 retaliation attack per combat round. Retaliation attacks function like normal attacks, so you can play cards from your hand when they are performed. A retaliation attack cannot cause another retaliation attack. To remember which unit has already retaliated during this combat round, place a black cube on it and remove the cube at the end of the combat round.
+
+### Paralysis
+
+A paralysed unit skips its next activation and removes the paralysis token instead. If it is attacked or takes any damage before that time, remove the paralysis token from that unit. A unit attacked in this way is able to immediately perform a retaliation attack.
+
+### Defense
+
+When a unit with a defense token is attacked, after the attack roll make another roll with the Attack Die - if you roll a +1, the defending unit gains an extra defense. At the start of its activation, if a unit has a defense token, discard it; this unit cannot take defense action in this activation.
+
+## Card use during combat
+
+You may use a maximum of one Spell card per Combat round. Cards with the Ongoing symbol or with Activation symbol may only be used during the activation of your units, but before an attack is made. Instant cards may be played at any time except (unless otherwise stated) in the window between an attack roll and the attack's resolution. The instant effects that increase a unit's statistics end before that unit's next action this round, whether it is attacking or defending. Ongoing effects last until the end of combat or until the effect on the card is used up. Cards with ongoing effects are discarded when there effect expires or it is used.
+
+## Combat Round Order
+
+1. Players activate their units in the decreasing order of initiative, starting with the unit that has the highest initiative and has not been activated this Combat round.
+2. The activated unit may be moved a number of spaces that depend on its type. After that, the player may decide to attack a unit. Flying and Ground units may attack after moving., while ranged units may only attack before moving. Instead of attacking, you may choose to defend with a unit. If you do so, your unit's activation ends immediately, but the unit receives a defense token.
+3. Before attacking with a unit, decide if you want to use any ongoing or activation cards from your hand.
+4. Before the attack roll, you and your opponent may play any instant cards to increase the attack or defense of a unit. After that, roll the Attack die and apply the result to your attack before dealing the damage, along with any other modifiers that apply (e.g. combat penalties).
+5. Resolve damage effects. Reduce the attacking unit's total attack value by the defending unit's total defense value. Then, deal any leftover damage to the unit. If the defense was greater than or equal to the attack, then no damage is dealt. Place a damage token on the defending unit for each point of damage taken; flip the card and place any leftover damage, or remove it from the combat board entirely if necessary.
+6. If the defending unit survives, is adjacent to the attacker, and has not yet done so this combat round, it performs a retaliation attack.
+7. Return to step 1 until all units have been activated.
+8. End of combat round.
+
+NOTE: if there are many units with the same initiative, first activate the attacker's unit and then the defender's unit. repeat this step if necessary.
+
+## Combat Experience
+
+When you defeat an Enemy Hero or Neutral Units, your Main Hero gains Experience. Its amount depends on the difficulty of the encounter:
+1. If the effective Field Difficulty/Enemy Hero level is lower than your Main Hero's level, you gain no experience.
+2. If the effective Field Difficulty/Enemy Hero level is equal to your Main Hero's level, you gain 1 Experience.
+3. If the effective Field Difficulty/Enemy Hero level is higher than your Main Hero's level, you gain 2 Experience.
+4. Azure tier encounters immediately grant the 7th level of Experience.
+
+NOTE: You gain no experience from fighting an army that was transported to a Town/Settlement, or from fighting an enemy's secondary hero.
+
+## Quick Combat
+
+If you Hero's level is higher than the Field Difficulty, the Neutral Units flee in terror. The player beats the encounter instantly and no Combat takes place.
+
+## End of Combat
+
+A Combat encounter can end in one of 3 ways:
+1. A player chooses to surrender (this can only happen if they fight an enemy player).
+2. A player retreats from the encounter (this can only happen if they fight Neutral Units other than Azure Tier).
+3. All units on either side are defeated.
+
+During Combat, you may surrender whenever you activate any of your units but before you move or attack with them.
+
+Retreating from Combat does not count as a defeat. Take all your remaining units from the Combat Board and move your hero to the field they have visited last.
+
+In order to surrender to an Enemy Hero, you must give your opponent 10 gold. When you do so, place your Hero in any Town or Settlement you control. You can neither surrender nor retreat while you are defending a Town. Surrendering does not count as a defeat and does not cause unit losses.
+
+If your Main Hero is defeated by another player, give your opponent 5 gold and gain Negative Morale. When you do so, place your Hero in any Town or Settlement you control.
+
+## Player VS AI
+
+When playing solo, you must follow certain rules to ensure a fair and balanced experience.
+
+The campaign mode for Heroes of Might and Magic III: The Board Game makes use of AI Heroes that use 2 decks to play the game, the AI deck and the Spell deck. The AI deck consists of cards that are similar in function to Abilities and Artifacts, but change depending on game difficulty.
+
+Based on the AI deck's instructions, the AI will also make use of a Spell deck containing spells that will help the AI in Combat.
+
+### AI Combat
+
+During combat against Neutral or Enemy AI units, the enemy will follow a set of instructions that aim to simulate a real human:
+1. Initiative rules remain the same, with the highest initiative unit going first and the attacking Hero having priority. When fighting an AI Hero, every time the AI activates a unit, draw a card from the AI deck and resolve its effect in the AI's stead.
+2. If possible, Enemy Ground and Flying units always attack units of the same tier. If that is not possible, they target the closest unit within one movement. They move into range if necessary. Enemy units prioritize lower tier units if they cannot target units of the same tier.
+3. Enemy Ranged units prioritize other Ranged units of equal tier, then they target lower tier units, and finally the units of a higher tier. If there are no Ranged units, they instead target Ground or Flying units of the same tier. If there is more than one valid target, they target the unit that is closest to them. If there is still more than one valid target, the player chooses which units are attacked.
+
+### AI Movement
+
+AI Heroes have 3 Movement Points which they use to move across the map. They must do the following actions in order:
+1. Check if a player Hero is on the same Hex tile as the AI. If so, spend all Movement Points moving towards them in an attempt to begin combat.
+2. Check if there are any Mines or Settlements to Flag on the Map tile the AI hero is on. If there are any, move toward the closest one and flag it.
+3. If actions 1 and two are not possible, they move toward the player's Town instead.
+4. Repeat from point 1 until all movement points are used.
+
+The AI automatically wins any Neutral Unit Combat and its behaviours may vary across different scenarios.
+
+NOTE: Enemy Heroes are always placed on their faction's Town.
+
+
+[ 📜 Back to Top](#table-of-contents)
+
+---
+---
+
+
+# Game Settings
+
+## Optional Rules
+
+You may modify the rules to increase or decrease the game's difficulty.
+
+| Game Difficulty Change | Rules Change |
+| --- | --- |
+| Increase | Towns do not produce resources when Flagged, but players may use the buildings of a captured Town |
+| Increase | You may not reroll your dice |
+| Increase | All Treasure and Resource dice only give 1 resource |
+| Increase | No starting bonus |
+| Decrease | You start the game with a Secondary Hero |
+| Decrease | Every unit deals at least 1 damage during an attack |
+| Decrease | All Mines and Settlements provide double income |
+| Decrease | You may exchange resources at any time. The Trading Post becomes Visitable and draws you one card from the Artifact Deck |
+| Decrease | Extending Combat doesn't cost Movement Points |
+| Variant | The Attack die no longer affects damage (but can still interact with abilities) |
+| Variant | An Astrologers Proclaim card is also drawn at the start of the Resource rounds |
+| Variant | Astrologers Proclaim cards are no longer drawn |
+| Variant | Black cubes on all Visitable fields are removed on the 4th, 8th and 12th rounds |
+| Variant | The cards that would normally go to your hand now go immediately to your discard pile instead |
+
+## Difficulty
+
+During setup, select the difficulty. It will affect starting bonuses and the number of Neutral Units met during exploration. After taking the bonus, shuffle the Artifact deck.
+
+### Starting Bonus
+
+- Easy: Roll 2 Resource dice and add the results of both dice to your Resource Pool, or Search (2) the Artifact deck, twice.
+- Normal: Roll 2 Resource dice and add the results of both dice to your Resource Pool, or Search (2) the Artifact deck.
+- Hard: Roll 1 Resource die and add the result to your Resource Pool, or reveal cards from the top of the Artifact deck until you find 1 Minor Artifact and add it to your hand.
+- Impossible: No starting bonus
+
+### Difficulty Level Table
+
+| Difficulty | Easy | Normal | Hard | Impossible |
+| --- | --- | --- | --- | --- |
+| Level 1 | 1x Bronze | 1x Bronze | 2x Bronze | 3x Bronze |
+| Level 2 | 2x Bronze | 2x Bronze | 3x Bronze | 2x Bronze, 1x Silver |
+| Level 3 | 1x Bronze, 1x Silver | 2x Bronze, 1x Silver | 1x Bronze, 2x Silver | 3x Silver |
+| Level 4 | 2x Bronze, 1x Silver | 1x Bronze, 2x Silver | 3x Silver | 2x Silver, 1x Gold |
+| Level 5 | 2x Bronze, 1x Silver, 1x Gold | 1x Bronze, 2x Silver, 1x Gold | 2x Silver, 2x Gold | 1x Silver, 3x Gold |
+| Level 6 | 2x Bronze, 2x Silver, 1x Gold | 1x Bronze, 2x Silver, 2x Gold | 2x Silver, 3x Gold | 1x Silver, 4x Gold |
+| Level 7 | 1x Azure | 2x Azure | 1x Gold, 2x Azure | 2x Gold, 2x Azure |
+
+## Victory Conditions
+
+Although victory conditions may vary from scenario to scenario, the most common one is to defeat all enemy factions. You may do this by capturing every Town and Settlement controlled by the enemy.
+
+Unless stated otherwise, a player who remains without a Town or Settlement for 3 full rounds is eliminated from the game. The same will happen if your Main Hero is defeated while defending a beseiged Town, and you have no more Towns or Settlements. An eliminated player may still control Neutral Units during combat against other players.
+
+Some Scenarios may also require you to collect enemy faction cubes - which may count towards meeting a Victory condition - by defeating Enemy Heroes or capturing their starting Towns.
+
+## Trade Table
+
+When visiting a Trading Post, you may exchange your resources according to the following chard, or remove 1 card from hand to gain 1 gold.
+
+NOTE: You cannot remove this way specialty, Statisti, Starting Ability or Magic Arrow cards.
+
+Allied players are able to exchange Artifact or Spell cards for another and their Heroes must occupy adjacent fields. Only cards from a player's hand may be traded.
+
+| Sells/gets | ...to purchase gold | ...to purchase valuables | ...to purchase building materials |
+| --- | --- | --- | --- |
+| I am selling gold... | - | 6 for 1 | 2 for 1 |
+| I am selling valuables... | 1 for 3 | - | 1 for 2 |
+| I am selling building materials... | 1 for 1 | 3 for 1 | - |
 
 [ 📜 Back to Top](#table-of-contents)
 
